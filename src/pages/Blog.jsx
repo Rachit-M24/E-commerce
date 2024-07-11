@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
@@ -9,19 +9,27 @@ const Blog = () => {
         <li className="mb-2">
           <Link to="/post1" className="text-blue-600 hover:text-blue-900">
             <h2 className="text-lg font-bold">Post 1: Introduction to React</h2>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="text-gray-600">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </Link>
         </li>
         <li className="mb-2">
           <Link to="/post2" className="text-blue-600 hover:text-blue-900">
-            <h2 className="text-lg font-bold">Post 2: Building a Todo List App</h2>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2 className="text-lg font-bold">
+              Post 2: Building a Todo List App
+            </h2>
+            <p className="text-gray-600">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </Link>
         </li>
         <li className="mb-2">
           <Link to="/post3" className="text-blue-600 hover:text-blue-900">
             <h2 className="text-lg font-bold">Post 3: Using React Hooks</h2>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p className="text-gray-600">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
           </Link>
         </li>
       </ul>
